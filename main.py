@@ -1,9 +1,8 @@
 from cep import BuscaEndereco
-import requests as rq
 # cadastro = Datas()
 
 # print(cadastro.dia_semana())
-cep = 88034001
+cep = 81750240
 hoje = BuscaEndereco(cep)
 
 
