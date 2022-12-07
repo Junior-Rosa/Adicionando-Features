@@ -1,14 +1,5 @@
-from Cpf_cnpj import Documento
-from validate_docbr import CNPJ
+from data import Datas
 
-cpf = '03807399097'
+cadastro = Datas()
 
-obj_cpf = Documento.cria_doc(cpf)
-
-print(obj_cpf)
-
-
-# ex_cnpj = '80150857000127'
-# cnpj = Documento.cria_doc(ex_cnpj)
-# print(cnpj)
-
+print(cadastro.dia_semana())
