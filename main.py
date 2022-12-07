@@ -1,5 +1,12 @@
-from data import Datas
+from cep import BuscaEndereco
+import requests as rq
+# cadastro = Datas()
 
-cadastro = Datas()
+# print(cadastro.dia_semana())
+cep = 88034001
+hoje = BuscaEndereco(cep)
 
-print(cadastro.dia_semana())
+
+a = hoje.acessa_api_viacep()
+
+print(a)
